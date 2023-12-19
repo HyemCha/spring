@@ -22,7 +22,20 @@ public class OrderRepository {
     }
 
     // 검색==============
-//    public List<Order> findAll(OrderSearch orderSearch) {
-//
-//    }
+    public List<Order> findAllByString(OrderSearch orderSearch) {
+
+        String jpql = "select o from Order o join o.member m";
+
+        return em.createQuery(jpql, Order.class)
+                .setMaxResults(1000)
+                .getResultList();
+
+    }
+
+    /**
+     * JPA Criteria
+     */
+    public List<Order> findAllByCriteria(OrderSearch orderSearch) {
+        return null;
+    }
 }

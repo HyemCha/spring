@@ -1,0 +1,28 @@
+spring:
+  profiles:
+    active: local
+
+  datasource:
+    url: jdbc:h2:tcp://localhost/~/springdb2
+    username: sa
+    password:
+
+# jdbcTemplate sql log
+logging:
+  level:
+    org:
+      springframework:
+        jdbc: debug
+
+# mybatis
+mybatis:
+  type-aliases-package: hello.itemservice.domain
+  configuration:
+    map-underscore-to-camel-case: true
+
+logging:
+  level:
+    hello:
+      itemservice:
+        repository:
+          mybatis: trace

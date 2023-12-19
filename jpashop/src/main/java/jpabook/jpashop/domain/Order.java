@@ -15,11 +15,13 @@ import static jakarta.persistence.FetchType.*;
 
 @Entity
 @Table(name = "orders")
-@Getter @Setter
+@Getter
+@Setter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class Order {
 
-    @Id @GeneratedValue
+    @Id
+    @GeneratedValue
     @Column(name = "order_id")
     private Long id;
 
@@ -69,6 +71,7 @@ public class Order {
     }
 
     // 비즈니스 로직==========
+
     /**
      * 주문 취소
      */
