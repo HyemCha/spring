@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="62da8b99-942c-4aca-a660-59ec68a23773" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../itemservice-db/src/main/java/hello/itemservice/config/JpaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../itemservice-db/src/main/java/hello/itemservice/config/MyBatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../itemservice-db/src/main/java/hello/itemservice/config/QuerydslConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../itemservice-db/src/main/java/hello/itemservice/config/SpringDataJpaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../itemservice-db/src/main/java/hello/itemservice/config/V2Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../itemservice-db/src/main/java/hello/itemservice/repository/jpa/JpaItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../itemservice-db/src/main/java/hello/itemservice/repository/jpa/JpaItemRepositoryV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../itemservice-db/src/main/java/hello/itemservice/repository/jpa/JpaItemRepositoryV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../itemservice-db/src/main/java/hello/itemservice/repository/jpa/SpringDataJpaItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../itemservice-db/src/main/java/hello/itemservice/repository/mybatis/ItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../itemservice-db/src/main/java/hello/itemservice/repository/mybatis/MyBatisItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../itemservice-db/src/main/java/hello/itemservice/repository/v2/ItemQueryRepositoryV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../itemservice-db/src/main/java/hello/itemservice/repository/v2/ItemRepositoryV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../itemservice-db/src/main/java/hello/itemservice/service/ItemServiceV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../itemservice-db/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../itemservice-db/src/main/resources/hello/itemservice/repository/mybatis/itemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jpaboard/src/main/java/com/example/jpaboard/controller/BoardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jpaboard/src/main/java/com/example/jpaboard/model/entity/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jpaboard/src/main/java/com/example/jpaboard/model/enums/BoardStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jpaboard/src/main/java/com/example/jpaboard/model/request/BoardEditReqeust.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jpaboard/src/main/java/com/example/jpaboard/model/request/BoardWriteRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jpaboard/src/main/java/com/example/jpaboard/model/response/BoardWriteReponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jpaboard/src/main/java/com/example/jpaboard/repository/BoardRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../jpaboard/src/main/java/com/example/jpaboard/service/BoardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springtx/src/main/java/hello/springtx/order/NotEnoughMoneyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springtx/src/main/java/hello/springtx/order/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springtx/src/main/java/hello/springtx/order/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springtx/src/main/java/hello/springtx/order/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springtx/src/main/java/hello/springtx/propagation/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springtx/src/main/java/hello/springtx/propagation/LogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springtx/src/main/java/hello/springtx/propagation/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springtx/src/main/java/hello/springtx/propagation/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springtx/src/main/java/hello/springtx/propagation/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springtx/src/test/java/hello/springtx/apply/InitTxTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springtx/src/test/java/hello/springtx/apply/InternalCallV1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springtx/src/test/java/hello/springtx/apply/InternalCallV2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springtx/src/test/java/hello/springtx/apply/TxBasixTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springtx/src/test/java/hello/springtx/apply/TxLevelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springtx/src/test/java/hello/springtx/exception/RollbackTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springtx/src/test/java/hello/springtx/order/OrderServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springtx/src/test/java/hello/springtx/propagation/BasicTxTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../springtx/src/test/java/hello/springtx/propagation/MemberServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../embed/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../embed/src/main/java/hello/MySpringBootMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../embed/src/main/java/hello/boot/MySpringApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../embed/src/main/java/hello/boot/MySpringBootApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../embed/src/main/java/hello/embed/EmbedTomcatServletMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../embed/src/main/java/hello/embed/EmbedTomcatSpringMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/hello/container/AppInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/hello/container/AppInitV1Servlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/hello/container/AppInitV2Spring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/hello/container/AppInitV3SpringMvc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/hello/container/MyContainerInitV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/hello/container/MyContainerInitV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/hello/servlet/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/hello/servlet/TestServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/hello/spring/HelloConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/hello/spring/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/resources/META-INF/services/jakarta.servlet.ServletContainerInitializer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../itemservice-db/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../itemservice-db/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../itemservice-db/src/main/java/hello/itemservice/ItemServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../itemservice-db/src/main/java/hello/itemservice/ItemServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../itemservice-db/src/main/java/hello/itemservice/domain/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../itemservice-db/src/main/java/hello/itemservice/domain/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../itemservice-db/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../itemservice-db/src/test/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../itemservice-db/src/test/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jpql/src/main/java/jpql/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../jpql/src/main/java/jpql/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2aAFWrvYVa0sNqlpGXiSGEW5ip2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "android.gradle.sync.needed": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/hyemin/Documents/goorm/spring_practice/start/boot/build.gradle",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="boot.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hello.boot.BootApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="62da8b99-942c-4aca-a660-59ec68a23773" name="Changes" comment="" />
+      <created>1703753510505</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703753510505</updated>
+      <workItem from="1703753511549" duration="2276000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
